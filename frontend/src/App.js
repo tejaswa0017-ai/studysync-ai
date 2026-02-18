@@ -277,6 +277,192 @@ function App() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-zinc-950" />
       </section>
 
+      <section className="py-16 bg-zinc-900/50 border-y border-white/5" data-testid="features-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="font-['Playfair_Display'] text-3xl md:text-4xl font-bold tracking-tight mb-3">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600">What We Offer</span>
+            </h2>
+            <p className="text-sm text-zinc-400">Experience dining excellence with our premium amenities</p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-lunch"
+            >
+              <Coffee className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Lunch</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.15 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-dinner"
+            >
+              <Utensils className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Dinner</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-takeaway"
+            >
+              <Truck className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Takeaway Available</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.25 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-vegetarian-only"
+            >
+              <Leaf className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Vegetarian Only</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-less-noisy"
+            >
+              <Volume1 className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Less Noisy</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.35 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-reservation"
+            >
+              <CalendarCheck className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Reservation Required</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-stags-allowed"
+            >
+              <Users className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Stags Allowed</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.45 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-free-parking"
+            >
+              <CarFront className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Free Parking</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-family-friendly"
+            >
+              <Baby className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Family & Child Friendly</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.55 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-indoor-seating"
+            >
+              <Armchair className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Indoor Seating</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.6 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-large-group"
+            >
+              <UsersRound className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Large Group Seating</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.65 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-booth-seating"
+            >
+              <Armchair className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Booth Seating</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.7 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-all-you-can-eat"
+            >
+              <UtensilsCrossed className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">All You Can Eat</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.75 }}
+              className="p-4 rounded-xl bg-zinc-900/30 border border-white/5 hover:border-amber-500/30 transition-all duration-300 text-center group hover:bg-zinc-900/50"
+              data-testid="feature-fireplace"
+            >
+              <Flame className="w-6 h-6 text-amber-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+              <p className="text-xs text-zinc-300 font-medium">Fireplace</p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       <section id="menu" className="py-24 md:py-32 bg-zinc-950" data-testid="menu-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
