@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "name": "Taam Jham",
+    "persona": "The Culinary Explosion",
+    "mission": "To create a hyper-realistic, cinematic, and luxury digital experience that mirrors the grandeur of a multi-cuisine feast.",
+    "emotional_tone": "Indulgent, Energetic, Premium, Warm, Grand",
+    "aesthetic": "Dark Cinematic Luxury"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "accents": "Cinzel, serif"
+    },
+    "scale": {
+      "h1": "text-6xl md:text-8xl font-black tracking-tight leading-none",
+      "h2": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body": "text-base md:text-lg leading-relaxed text-zinc-300",
+      "caption": "text-sm uppercase tracking-widest text-zinc-500"
+    },
+    "instructions": "Import fonts from Google Fonts: Playfair Display (400, 700, 900), Manrope (300, 400, 600), Cinzel (Decorative). Use Playfair for all major headings. Use Manrope for body text and UI elements."
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "primary": "#09090b",
+        "secondary": "#18181b",
+        "accent": "#27272a"
+      },
+      "text": {
+        "primary": "#fefce8",
+        "secondary": "#a1a1aa",
+        "muted": "#52525b"
+      },
+      "brand": {
+        "gold": "#fbbf24",
+        "gold_hover": "#f59e0b",
+        "maroon": "#450a0a",
+        "saffron": "#ea580c"
+      },
+      "functional": {
+        "success": "#10b981",
+        "error": "#ef4444",
+        "warning": "#f59e0b"
+      }
+    },
+    "gradients": {
+      "gold_text": "bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600",
+      "dark_overlay": "bg-gradient-to-b from-black/20 to-black/90",
+      "hero_glow": "radial-gradient(circle at center, rgba(251, 191, 36, 0.15) 0%, rgba(0,0,0,0) 70%)"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_padding": "py-24 md:py-32",
+      "element_gap": "gap-8"
+    },
+    "grid_system": {
+      "bento_hero": "grid grid-cols-1 md:grid-cols-12 gap-4",
+      "menu_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "gallery_masonry": "columns-1 md:columns-3 gap-4 space-y-4"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "bg-black/40 backdrop-blur-xl border border-white/10",
+    "shadows": {
+      "gold_glow": "shadow-[0_0_30px_-10px_rgba(251,191,36,0.3)]",
+      "card_hover": "shadow-2xl shadow-black/50"
+    },
+    "borders": "border border-white/10",
+    "radius": "rounded-2xl"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-[0_0_20px_rgba(245,158,11,0.4)]",
+      "secondary": "bg-transparent border border-amber-500/50 text-amber-500 hover:bg-amber-500/10 px-8 py-4 rounded-full transition-all duration-300",
+      "ghost": "text-zinc-400 hover:text-white transition-colors"
+    },
+    "cards": {
+      "menu_item": "group relative overflow-hidden rounded-xl bg-zinc-900/50 border border-white/5 hover:border-amber-500/30 transition-all duration-500",
+      "feature": "p-8 rounded-2xl bg-zinc-900/30 border border-white/5 hover:bg-zinc-900/50 transition-all duration-300"
+    },
+    "navigation": {
+      "style": "fixed top-4 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-full bg-black/60 backdrop-blur-xl border border-white/10 flex items-center gap-8"
+    }
+  },
+  "images": {
+    "hero_composition": [
+      {
+        "category": "centerpiece",
+        "description": "Luxurious Menu Card (Use CSS to create or this image as fallback)",
+        "url": "https://images.pexels.com/photos/18759181/pexels-photo-18759181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Taam Jham Menu"
+      },
+      {
+        "category": "flying_element_1",
+        "description": "Deconstructed Burger",
+        "url": "https://images.pexels.com/photos/14935009/pexels-photo-14935009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Gourmet Burger Explosion"
+      },
+      {
+        "category": "flying_element_2",
+        "description": "Pasta Twirl",
+        "url": "https://images.pexels.com/photos/33455847/pexels-photo-33455847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Creamy Pasta"
+      },
+      {
+        "category": "flying_element_3",
+        "description": "Noodles Lift",
+        "url": "https://images.pexels.com/photos/1395319/pexels-photo-1395319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Steaming Noodles"
+      },
+      {
+        "category": "flying_element_4",
+        "description": "Cocktail Splash",
+        "url": "https://images.pexels.com/photos/227906/pexels-photo-227906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Signature Cocktail"
+      },
+      {
+        "category": "flying_element_5",
+        "description": "Indian Curry Steam",
+        "url": "https://images.pexels.com/photos/34159113/pexels-photo-34159113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Spicy Curry"
+      }
+    ],
+    "ambience": {
+      "main": "https://images.pexels.com/photos/19343364/pexels-photo-19343364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Luxury Interior"
+    }
+  },
+  "sections": {
+    "hero": {
+      "type": "custom_composition",
+      "instructions": "Create a viewport-height (100vh) hero section. CENTER: A vertically oriented 'Menu Card' div (300px x 500px) with dark leather texture (CSS), gold borders, and the 'Taam Jham' logo embossed. SURROUNDING: Absolute positioned food images (use the 'flying_element' URLs) that appear to explode/radiate from behind the menu. ANIMATION: Use Framer Motion to gently float these elements (parallax) based on mouse movement. OVERLAY: A subtle dark gradient at the bottom for text readability."
+    },
+    "menu": {
+      "type": "interactive_tabs",
+      "instructions": "Use Shadcn Tabs component. Style the triggers to look like gold-outlined buttons. Content area should use the 'menu_grid' layout. Each card should have a high-quality food image (use placeholders if specific dishes aren't available, or reuse hero assets) and a 'Add to Order' button that appears on hover."
+    },
+    "about": {
+      "type": "split_layout",
+      "instructions": "Left: Large typography 'Our Story'. Right: Text block with the 'ambience' image mixed in a collage format."
+    }
+  },
+  "animation": {
+    "library": "framer-motion",
+    "preferences": {
+      "reduced_motion": "respect",
+      "scroll": "lenis (smooth scroll)",
+      "transitions": "staggerChildren: 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1]"
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure gold text on black meets 4.5:1. Use lighter gold (#fcd34d) for small text.",
+    "focus_states": "visible focus:ring-2 focus:ring-amber-500 focus:outline-none",
+    "semantic_html": "Use <main>, <nav>, <section>, <article> tags appropriately."
+  },
+  "universal_guidelines": [
+    "Do not use gradients for dark colors.",
+    "Avoid generic centered layouts; use asymmetry.",
+    "Use 2-3x more spacing than typical.",
+    "All interactive elements must have micro-interactions (hover, click, focus).",
+    "Use glassmorphism with backdrop-blur-xl.",
+    "All key elements must have data-testid attributes."
+  ]
+}
