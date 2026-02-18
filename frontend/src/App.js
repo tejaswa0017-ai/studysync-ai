@@ -413,13 +413,14 @@ function App() {
                 <div className="p-8 rounded-2xl bg-zinc-900/50 border border-white/5 hover:bg-zinc-900/50 transition-all duration-300" data-testid="contact-address">
                   <MapPin className="w-8 h-8 text-amber-500 mb-4" />
                   <h3 className="text-2xl font-['Playfair_Display'] font-semibold text-white mb-2">Address</h3>
-                  <p className="text-zinc-300">123 Food Street, Culinary District<br />Mumbai, Maharashtra 400001</p>
+                  <p className="text-zinc-400 text-sm mb-2">Located in: Times Square Grand</p>
+                  <p className="text-zinc-300">2nd Floor, Times Square Grand,<br />Shop no. 206 - 212, Sindhu Bhavan Marg,<br />Bodakdev, Ahmedabad, Gujarat 380059</p>
                 </div>
                 
                 <div className="p-8 rounded-2xl bg-zinc-900/50 border border-white/5 hover:bg-zinc-900/50 transition-all duration-300" data-testid="contact-phone">
                   <Phone className="w-8 h-8 text-amber-500 mb-4" />
                   <h3 className="text-2xl font-['Playfair_Display'] font-semibold text-white mb-2">Phone</h3>
-                  <p className="text-zinc-300">+91 98765 43210<br />+91 98765 43211</p>
+                  <p className="text-zinc-300">+91 092654 48971</p>
                 </div>
                 
                 <div className="p-8 rounded-2xl bg-zinc-900/50 border border-white/5 hover:bg-zinc-900/50 transition-all duration-300" data-testid="contact-hours">
