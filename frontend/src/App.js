@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import '@/App.css';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { ChefHat, MapPin, Phone, Mail, Clock, Star, Utensils, Award, Heart } from 'lucide-react';
+import { ChefHat, MapPin, Phone, Mail, Clock, Star, Utensils, Award, Heart, Flame, Leaf, UtensilsCrossed } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
