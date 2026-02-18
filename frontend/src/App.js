@@ -225,11 +225,31 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-base md:text-lg leading-relaxed text-zinc-300 mb-12 max-w-2xl mx-auto"
+            className="text-base md:text-lg leading-relaxed text-zinc-300 mb-8 max-w-2xl mx-auto"
           >
             Experience the finest North Indian, Italian, Indo-Chinese cuisines and more,
             crafted with passion and served with pride.
           </motion.p>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="flex gap-4 justify-center flex-wrap mb-12"
+          >
+            <div className="px-6 py-3 rounded-full bg-zinc-900/50 border border-amber-500/30 backdrop-blur-xl flex items-center gap-2 text-amber-500" data-testid="service-all-you-can-eat">
+              <UtensilsCrossed className="w-5 h-5" />
+              <span className="text-sm font-semibold">All You Can Eat</span>
+            </div>
+            <div className="px-6 py-3 rounded-full bg-zinc-900/50 border border-amber-500/30 backdrop-blur-xl flex items-center gap-2 text-amber-500" data-testid="service-fireplace">
+              <Flame className="w-5 h-5" />
+              <span className="text-sm font-semibold">Fireplace</span>
+            </div>
+            <div className="px-6 py-3 rounded-full bg-zinc-900/50 border border-amber-500/30 backdrop-blur-xl flex items-center gap-2 text-amber-500" data-testid="service-vegetarian">
+              <Leaf className="w-5 h-5" />
+              <span className="text-sm font-semibold">Vegetarian Options</span>
+            </div>
+          </motion.div>
           
           <motion.div
             initial={{ opacity: 0, y: 30 }}
