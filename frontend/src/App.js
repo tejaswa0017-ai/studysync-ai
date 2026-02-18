@@ -335,7 +335,7 @@ function App() {
                       </div>
                       <p className="text-sm text-zinc-400 mb-4 leading-relaxed">{item.description}</p>
                       <div className="flex items-center justify-between">
-                        <span className="text-2xl font-bold text-amber-500">₹{item.price}</span>
+                        <span className="text-xl font-bold text-amber-500">₹{item.price}</span>
                         <div className="flex items-center gap-2">
                           <span className={`px-3 py-1 rounded-full text-xs ${item.is_veg ? 'bg-green-500/20 text-green-500 border border-green-500/30' : 'bg-red-500/20 text-red-500 border border-red-500/30'}`}>
                             {item.is_veg ? '🟢 Veg' : '🔴 Non-Veg'}
